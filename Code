@@ -8,20 +8,26 @@ Public class Activity
       ArrayList<String> list = new ArrayList<String>();
       while (Activity.hasNext())
         list.add(Activity.next());
-        
-    boolean check = true;
-    while(check)
-     {
-     Random int = new Random();
+        while(file.hasNext()){
+                String a = file.nextLine();
+                //Collections.shuffle(words);
+                //String pickWord = words.get(1);
+                //String[] a = 
+                System.out.println(a);   
      
      }
-   int index = randomGenerator.nextInt(catalogue.size());
+   int index = randomGenerator.nextLine(catalogue.size());
         return catalogue.get(index);
         System.out.println("The choice is...." + anyItem + "like it or lump it.");
         System.out.println("Do you wish to lump it? ");
         char y = new Scanner;
         if(y)
     }
-   
+    while(file.hasNext()){
+                String a = file.nextLine();
+                //Collections.shuffle(words);
+                //String pickWord = words.get(1);
+                //String[] a = 
+                System.out.println(a);
 }
 Activity.close();
