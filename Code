@@ -17,7 +17,10 @@ Public class Activity
      }
    int index = randomGenerator.nextInt(catalogue.size());
         return catalogue.get(index);
-        System.out.println("Managers choice this week" + anyItem + "our recommendation to you");
+        System.out.println("The choice is...." + anyItem + "like it or lump it.");
+        System.out.println("Do you wish to lump it? ");
+        char y = new Scanner;
+        if(y)
     }
    
 }
