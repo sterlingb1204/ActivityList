@@ -1,0 +1,24 @@
+import java.util.*;
+
+Public class Activity
+{
+  Public static void main(String [] args)
+   {
+      Scanner Activity = new Scanner(new File("Date.txt"));
+      ArrayList<String> list = new ArrayList<String>();
+      while (Activity.hasNext())
+        list.add(Activity.next());
+        
+    boolean check = true;
+    while(check)
+     {
+     Random int = new Random();
+     
+     }
+   int index = randomGenerator.nextInt(catalogue.size());
+        return catalogue.get(index);
+        System.out.println("Managers choice this week" + anyItem + "our recommendation to you");
+    }
+   
+}
+Activity.close();
